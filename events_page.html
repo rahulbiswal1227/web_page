@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Events</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" role="navigation">
+            <div class="nav_logo">
+                <a href="#" aria-label="VITC Home">
+                    <img src="assets/vitc.png" alt="VITC Logo" loading="lazy">
+                </a>
+                <a href="#" aria-label="RC Home">
+                    <img src="assets/rc.png" alt="RC Logo" loading="lazy">
+                </a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <i class="ri-menu-line" aria-hidden="true"></i>
+            </button>
+
+            <div class="nav_links">
+                <a href="/index.html">Home</a>
+                <a href="/index.html#about">About</a>
+                <a href="/dept.html">Departments</a>
+                <a href="/mem.html">Members</a>
+                <a href="/events_page.html"   class="active">Events</a>
+                <a href="/index.html#socials">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="first_screen">
+        <div class="title-container">
+            <a href="#" aria-label="Events link">
+                <span data-text="E">E</span>
+                <span data-text="V">V</span>
+                <span data-text="E">E</span>
+                <span data-text="N">N</span>
+                <span data-text="T">T</span>
+                <span data-text="S">S</span>
+            </a>
+            </div>
+    
+            <div class="filter-buttons" role="group" aria-label="Event filter buttons">
+                <button class="filter-btn active" data-section="all">All Events</button>
+                <button class="filter-btn" data-section="ongoing">Ongoing</button>
+                <button class="filter-btn" data-section="upcoming">Upcoming</button>
+                <button class="filter-btn" data-section="past">Past Events</button>
+            </div>
+    </section>
+    
+    <section class="events-section up" aria-label="Ongoing events">
+        <h2 class="section-title">Ongoing Events</h2>
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="event-card ongoing">
+                    <h3 class="event-title">AI Workshop</h3>
+                    <p class="event-info"><strong>Date:</strong> December 30, 2024</p>
+                    <p class="event-info"><strong>Time:</strong> 10:00 AM - 2:00 PM</p>
+                    <p class="event-description">Explore the basics of AI and robotics integration with hands-on experience.</p>
+                    <div class="event-actions">
+                        <a href="#register" class="action-btn register-btn">
+                            Register Now
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                        <button class="action-btn share-btn" aria-label="Share event">
+                            <i class="ri-share-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="events-section dw" aria-label="Upcoming events">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="event-card upcoming">
+                    <h3 class="event-title">Hackathon</h3>
+                    <p class="event-info"><strong>Date:</strong> January 10-11, 2025</p>
+                    <p class="event-info"><strong>Time:</strong> 24 Hours</p>
+                    <p class="event-description">Collaborate and create innovative solutions in this overnight coding marathon. Note: Ensure registration is completed by January 5, 2025. Prerequisites include familiarity with programming basics.</p>
+                    <div class="event-meta">
+                        <span class="event-tag">Registration Deadline: Jan 5, 2025</span>
+                        <span class="event-tag">Prerequisites: Programming Basics</span>
+                    </div>
+                    <div class="event-actions">
+                        <a href="#register" class="action-btn register-btn">
+                            Register Now
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                        <button class="action-btn reminder-btn">
+                            <i class="ri-notification-line"></i>
+                            Set Reminder
+                        </button>
+                        <button class="action-btn share-btn" aria-label="Share event">
+                            <i class="ri-share-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="events-section up" aria-label="Past events">
+        <h2 class="section-title">Past Events</h2>
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="event-card past">
+                    <h3 class="event-title">Web Development Workshop</h3>
+                    <p class="event-info"><strong>Date:</strong> December 15, 2024</p>
+                    <p class="event-info"><strong>Time:</strong> 2:00 PM - 5:00 PM</p>
+                    <p class="event-description">Introduction to modern web development techniques and best practices.</p>
+                    <div class="event-actions">
+                        <button class="action-btn gallery-btn">
+                            <i class="ri-image-line"></i>
+                            View Gallery
+                        </button>
+                        <button class="action-btn resources-btn">
+                            <i class="ri-folder-download-line"></i>
+                            Resources
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+<!-- Footer Section -->
+
+<section class="active-section">
+    <!-- Top Section: Stats -->
+    <div class="fottop">
+        <div class="heading">
+            <h1 class="doa">Discover Our Activeness</h1>
+        </div>
+        <div class="stats-container">
+            <div class="stat-item">
+                <h2 class="zoom-effect">175+</h2>
+                <p>Members</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="zoom-effect">75+</h2>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="zoom-effect">6</h2>
+                <p>Departments</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="zoom-effect">15+</h2>
+                <p>Ongoing Projects</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <hr>
+
+    <!-- Bottom Section -->
+    <div class="bottom-container">
+        <!-- Left Section: Logos -->
+        <div class="logo-section">
+            <img src="assets/rc.png" alt="Logo 1">
+            <img src="assets/vitc.png" alt="Logo 2">
+            <p>Official Website of Robotics Club<br>VIT Chennai</p>
+        </div>
+
+        <!-- Middle Section: Navigation -->
+        <div class="nav-section">
+            <a href="/index.html" class="nav-btn">Home</a>
+            <a href="/events_page.html" class="nav-btn">Events</a>
+            <a href="/mem.html" class="nav-btn">Members</a>
+            <a href="/index.html#about" class="nav-btn">About Us</a>
+            <a href="/inds.html" class="nav-btn">Industrial</a>
+            <a href="/dept.html" class="nav-btn">Departments</a>
+        </div>
+
+        <!-- Right Section: Recruitment -->
+        <div class="recruit-section">
+            <h3>Recruitment for the Club</h3>
+            <div class="mail-btn">
+                <button id="mailUsBtn">Mail Us</button>
+            </div>
+            <p class="quote">
+                "The best way to predict the future is to create it." <br> <span class="al"> ~Abraham Lincoln</span>
+            </p>
+            <p>Join the Robotics Club to explore the realms of innovation, creativity, and technology. Share your skills, collaborate and contribute to our mission of engineering excellence.</p>
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; Robotics Club | All Rights Reserved
+    </footer>
+</section>
+
+
+<script>document.getElementById("mailUsBtn").addEventListener("click", function () {
+    const mailToLink = "mailto:roboticsclub@example.com?subject=Recruitment%20Inquiry&body=Hi%20there!%20I'm%20interested%20in%20joining%20the%20club.%20Please%20find%20my%20details%20below.";
+    window.location.href = mailToLink;
+});</script>
+    <script src="js/index.js"></script>
+</body>
+</html>
